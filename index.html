@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0b10">
+  <meta name="description" content="A living little universe by Samantha Valarie. A digital experience about becoming, wonder, and the things that make a life yours.">
+  <title>Samantha Valarie — A Universe in Progress</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="wordmark" href="#home" aria-label="Samantha Valarie home"><span class="mark">S</span><span>SAMANTHA <i>VALARIE</i></span></a>
+    <div class="top-meta"><span class="live-dot"></span><span id="local-time">A LITTLE WORLD, ALWAYS IN PROGRESS</span></div>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+  </header>
+  <nav class="menu-panel" aria-hidden="true">
+    <a href="#manifesto">The feeling <small>01</small></a>
+    <a href="#constellation">My universe <small>02</small></a>
+    <a href="#notes">Field notes <small>03</small></a>
+    <a href="#future">A note to tomorrow <small>04</small></a>
+  </nav>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-kicker"><span class="eyebrow-line"></span> A DIGITAL UNIVERSE BY SAMANTHA VALARIE</div>
+      <div class="hero-title-wrap">
+        <h1>Still becoming.<br><em>Never ordinary.</em></h1>
+        <p class="hero-copy">A little corner of the internet for all the things I am, all the things I'm learning, and all the versions of me I haven't met yet.</p>
+      </div>
+      <div class="hero-bottom">
+        <a class="scroll-cue" href="#manifesto"><span class="scroll-ring">↓</span><span>SCROLL TO WANDER</span></a>
+        <div class="hero-coordinate"><span>01° / IN MOTION</span><span>MADE OF CURIOSITY & POSSIBILITY</span></div>
+      </div>
+      <div class="orbital-scene" aria-label="Interactive constellation. Move your cursor to explore.">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit orbit-c"></div>
+        <div class="planet planet-main"><span class="planet-shine"></span></div>
+        <div class="planet planet-small p1"></div><div class="planet planet-small p2"></div><div class="planet planet-small p3"></div>
+        <span class="star s1">✳</span><span class="star s2">✦</span><span class="star s3">✧</span><span class="star s4">✳</span>
+        <div class="orbit-label label-one">CURIOSITY <span>↗</span></div>
+        <div class="orbit-label label-two">BECOMING <span>✳</span></div>
+        <div class="orbit-label label-three">POSSIBILITY <span>∞</span></div>
+      </div>
+      <div class="hero-stamp"><span>SV</span><small>EST. IN<br>REAL TIME</small></div>
+    </section>
+
+    <section class="manifesto section-pad" id="manifesto">
+      <div class="section-index"><span>01</span><span class="index-line"></span><span>THE FEELING</span></div>
+      <div class="manifesto-grid">
+        <h2>I don't want a life<br>that just <em>looks</em> good.<br>I want one that <span class="underline-scribble">feels like me.</span></h2>
+        <div class="manifesto-side">
+          <p class="big-note">The plot is allowed to change.</p>
+          <p>I'm making room for the unexpected, collecting little moments, asking better questions, and learning to trust the person I'm becoming. This isn't a finished story. That's the beautiful part.</p>
+          <span class="handwritten">one day at a time, ♡</span>
+        </div>
+      </div>
+      <div class="ticker" aria-label="Words to live by"><div class="ticker-track"><span>MAKE SPACE FOR WONDER ✳</span><span>BE SOFT, STAY CURIOUS ✳</span><span>LET YOURSELF BEGIN AGAIN ✳</span><span>MAKE SPACE FOR WONDER ✳</span><span>BE SOFT, STAY CURIOUS ✳</span><span>LET YOURSELF BEGIN AGAIN ✳</span></div></div>
+    </section>
+
+    <section class="constellation-section section-pad" id="constellation">
+      <div class="section-index"><span>02</span><span class="index-line"></span><span>MY UNIVERSE</span></div>
+      <div class="section-heading">
+        <h2>Little worlds.<br><em>Big feelings.</em></h2>
+        <p>Tap a planet. Every orbit holds a different part of the story.</p>
+      </div>
+      <div class="universe-layout">
+        <div class="universe-map">
+          <svg class="constellation-lines" viewBox="0 0 600 500" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M95 110 Q210 35 300 155 T490 115"></path><path d="M95 110 Q150 270 300 285 T490 390"></path><path d="M300 155 L300 285 L490 390"></path><path d="M300 285 Q180 400 95 390"></path>
+          </svg>
+          <button class="planet-node node-curiosity active" data-world="curiosity"><span class="node-core"></span><span class="node-label">CURIO<br>SITY</span><span class="node-number">01</span></button>
+          <button class="planet-node node-softness" data-world="softness"><span class="node-core"></span><span class="node-label">SOFT<br>NESS</span><span class="node-number">02</span></button>
+          <button class="planet-node node-dreams" data-world="dreams"><span class="node-core"></span><span class="node-label">DREAMS<br>& PLANS</span><span class="node-number">03</span></button>
+          <button class="planet-node node-joy" data-world="joy"><span class="node-core"></span><span class="node-label">SMALL<br>JOYS</span><span class="node-number">04</span></button>
+          <button class="planet-node node-growth" data-world="growth"><span class="node-core"></span><span class="node-label">IN<br>PROGRESS</span><span class="node-number">05</span></button>
+          <div class="map-center"><span>SV</span><small>THE<br>WHOLE<br>UNIVERSE</small></div>
+        </div>
+        <article class="world-card" aria-live="polite">
+          <div class="world-card-top"><span id="world-count">WORLD 01 / 05</span><span class="world-symbol">✳</span></div>
+          <p class="eyebrow" id="world-eyebrow">THE OPEN DOOR</p>
+          <h3 id="world-title">Curiosity<br>is a compass.</h3>
+          <p id="world-description">I like following a question just to see where it goes. New ideas, unfamiliar places, unexpected conversations — they remind me that the world is bigger than the version I already know.</p>
+          <div class="world-footer"><span id="world-tag">ALWAYS ASKING WHY</span><span class="card-arrow">↗</span></div>
+        </article>
+      </div>
+      <p class="map-hint"><span>✳</span> THIS MAP IS NOT TO SCALE. NEITHER ARE MY DREAMS.</p>
+    </section>
+
+    <section class="quote-section">
+      <div class="quote-orb"></div>
+      <p class="eyebrow">A THOUGHT TO KEEP</p>
+      <blockquote>“You are allowed to be both a masterpiece <em>and a work in progress.</em>”</blockquote>
+      <span class="quote-credit">— A REMINDER, NOT A RULE</span>
+    </section>
+
+    <section class="notes-section section-pad" id="notes">
+      <div class="section-index"><span>03</span><span class="index-line"></span><span>FIELD NOTES</span></div>
+      <div class="section-heading notes-heading"><h2>Things worth<br><em>remembering.</em></h2><p>Not life lessons. Just little reminders from the middle of it all.</p></div>
+      <div class="notes-grid">
+        <article class="note note-featured"><span class="note-date">NOTE 001 / ON BEGINNING</span><div class="note-icon">↗</div><h3>Start before<br>the confidence arrives.</h3><p>Some doors only appear after you start walking. You don't have to feel ready to take yourself seriously.</p><span class="note-bottom">A NOTE TO MYSELF <span>✳</span></span></article>
+        <article class="note note-lilac"><span class="note-date">NOTE 002 / ON REST</span><div class="note-icon">☾</div><h3>Rest is part<br>of the becoming.</h3><p>Not every quiet season is a setback. Some things grow best when nobody is watching.</p><span class="note-bottom">A NOTE TO MYSELF <span>✳</span></span></article>
+        <article class="note note-outline"><span class="note-date">NOTE 003 / ON JOY</span><div class="note-icon">♡</div><h3>Let the small<br>things count.</h3><p>A song at the right time. A meal you made yourself. Laughing until your cheeks hurt. This is the life, too.</p><span class="note-bottom">A NOTE TO MYSELF <span>✳</span></span></article>
+      </div>
+    </section>
+
+    <section class="future-section section-pad" id="future">
+      <div class="future-stars" aria-hidden="true">✳　·　✦　　·　✧　·　✳　　·　✦</div>
+      <div class="section-index"><span>04</span><span class="index-line"></span><span>FROM ME, TO ME</span></div>
+      <div class="future-content">
+        <p class="eyebrow">DEAR FUTURE SAMANTHA,</p>
+        <h2>I hope you didn't<br>make yourself <em>smaller.</em></h2>
+        <p class="future-copy">I hope you kept the softness. I hope you said yes to the things that made your heart curious, and no to the things that asked you to disappear. I hope you made a life that feels like exhaling.</p>
+        <button class="open-letter" id="open-letter">OPEN A LITTLE LETTER <span>↗</span></button>
+      </div>
+      <div class="letter-modal" id="letter-modal" aria-hidden="true">
+        <div class="letter-paper"><button class="close-letter" aria-label="Close letter">×</button><span class="letter-date">WHENEVER YOU NEED THIS</span><h3>Dear Samantha,</h3><p>Look how far you've come — not just in the things you've done, but in the things you've survived, the boundaries you've learned to keep, and the courage it took to begin again.</p><p>You don't need to have it all figured out. You just need to keep meeting yourself with honesty, wonder, and a little grace.</p><p>There is still so much life waiting to surprise you.</p><span class="letter-sign">With love, always.<br><em>You.</em> ♡</span></div>
+      </div>
+    </section>
+
+    <section class="closing section-pad">
+      <div class="closing-top"><span>THE STORY CONTINUES</span><span>NO FINAL VERSION</span></div>
+      <div class="closing-title">Made of many<br><em>beautiful beginnings.</em></div>
+      <div class="closing-bottom"><span>THIS LITTLE UNIVERSE BELONGS TO<br><strong>SAMANTHA VALARIE</strong></span><a href="#home" class="back-top">BACK TO THE STARS <span>↑</span></a></div>
+    </section>
+  </main>
+  <footer class="footer"><span>© <span id="year"></span> SAMANTHA VALARIE</span><span>MADE WITH CURIOSITY & A LITTLE COSMIC DUST</span><a href="#home">↑ TOP</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
